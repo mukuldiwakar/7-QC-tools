@@ -1,1 +1,134 @@
 # 7-QC-tools
+
+<!-- Add the following style block at the top for custom colors -->
+<style>
+  h1 {
+    color: #1e88e5; /* Blue for main titles */
+  }
+  h2 {
+    color: #f4511e; /* Deep orange for subtitles */
+  }
+</style>
+
+<!-- Check Sheet -->
+<h1>Check Sheet</h1>
+<h2>Definition</h2>
+<p>A structured form or table used to systematically collect and record data in real-time at the location where the data is generated.</p>
+<h2>Significance</h2>
+<ul>
+  <li>Helps in collecting consistent data quickly.</li>
+  <li>Makes data gathering visual and understandable.</li>
+  <li>Identifies patterns in occurrence of issues.</li>
+</ul>
+<h2>Use in BPO</h2>
+<ul>
+  <li>Used to track how many times AHT (Average Handling Time) exceeds the target in a day.</li>
+  <li>Record the number of errors in different categories (wrong tag, delayed response, escalation).</li>
+  <li>Example: A QA might use it to tally how many quality violations happened in a shift.</li>
+</ul>
+<hr>
+
+<!-- Control Chart -->
+<h1>Control Chart</h1>
+<h2>Definition</h2>
+<p>A line graph with upper and lower control limits (UCL, LCL) that displays the performance of a process over time to see if it is under control or fluctuating.</p>
+<h2>Significance</h2>
+<ul>
+  <li>Distinguishes between common (normal) and special (abnormal) variations.</li>
+  <li>Allows proactive intervention before performance drops.</li>
+  <li>Ensures process stability over time.</li>
+</ul>
+<h2>Use in BPO</h2>
+<ul>
+  <li>Track AHT, CSAT (Customer Satisfaction), FCR (First Call Resolution) daily.</li>
+  <li>Check if your team’s AHT stays within set limits across weeks.</li>
+  <li>Example: If AHT spikes above UCL, it signals an issue needing attention.</li>
+</ul>
+<hr>
+
+<!-- Cause and Effect Diagram (Fishbone/Ishikawa) -->
+<h1>Cause and Effect Diagram (Fishbone/Ishikawa)</h1>
+<h2>Definition</h2>
+<p>A visual tool used to identify, explore, and display possible causes of a specific problem in a structured way.</p>
+<h2>Significance</h2>
+<ul>
+  <li>Finds root causes instead of symptoms.</li>
+  <li>Encourages brainstorming in teams.</li>
+  <li>Helps eliminate guesswork.</li>
+</ul>
+<h2>Use in BPO</h2>
+<ul>
+  <li>Used to analyze why CSAT is dropping.</li>
+  <li>Breaks down causes into categories: People, Process, Tools, Environment.</li>
+  <li>Example: High escalation rate may be caused by poor product knowledge (People) or system lag (Tools).</li>
+</ul>
+<hr>
+
+<!-- Histogram -->
+<h1>Histogram</h1>
+<h2>Definition</h2>
+<p>A bar chart representing the frequency distribution of numerical data, grouped into ranges.</p>
+<h2>Significance</h2>
+<ul>
+  <li>Shows distribution, variation, and central tendency.</li>
+  <li>Easily detects skewness and abnormalities in data.</li>
+  <li>Aids in decision-making by visual evidence.</li>
+</ul>
+<h2>Use in BPO</h2>
+<ul>
+  <li>Visualize how many chats fell in different AHT time ranges.</li>
+  <li>Example: 20 chats took 5–7 minutes, 50 chats took 8–10 minutes. This shows where most of the workload lies.</li>
+</ul>
+<hr>
+
+<!-- Pareto Chart -->
+<h1>Pareto Chart</h1>
+<h2>Definition</h2>
+<p>A bar chart sorted in descending order with a cumulative percentage line, based on the Pareto Principle (80/20 rule).</p>
+<h2>Significance</h2>
+<ul>
+  <li>Identifies the few vital causes that cause the most problems.</li>
+  <li>Helps prioritize issues for corrective actions.</li>
+  <li>Drives efficient resource allocation.</li>
+</ul>
+<h2>Use in BPO</h2>
+<ul>
+  <li>Identify top reasons for customer dissatisfaction or escalations.</li>
+  <li>Example: If 80% of complaints come from just 3 out of 10 possible reasons, solving those 3 has the highest impact.</li>
+</ul>
+<hr>
+
+<!-- Scatter Diagram -->
+<h1>Scatter Diagram</h1>
+<h2>Definition</h2>
+<p>A graph where two variables are plotted along two axes to determine their correlation or relationship.</p>
+<h2>Significance</h2>
+<ul>
+  <li>Shows whether a relationship exists between two factors.</li>
+  <li>Helps in root cause analysis through correlation.</li>
+  <li>Identifies trends and patterns visually.</li>
+</ul>
+<h2>Use in BPO</h2>
+<ul>
+  <li>Analyze if there’s a connection between training hours and error rates.</li>
+  <li>Example: If agents with more training have fewer escalations, it shows a negative correlation.</li>
+</ul>
+<hr>
+
+<!-- Stratification (aka Flow Chart or Run Chart) -->
+<h1>Stratification (aka Flow Chart or Run Chart)</h1>
+<h2>Definition</h2>
+<p>A technique for separating data from different sources or categories to identify patterns, relationships, or root causes more clearly.</p>
+<h2>Significance</h2>
+<ul>
+  <li>Breaks down complex data into meaningful layers.</li>
+  <li>Reveals differences across teams, shifts, or locations.</li>
+  <li>Prevents misleading conclusions from combined data.</li>
+</ul>
+<h2>Use in BPO</h2>
+<ul>
+  <li>Compare AHT during morning vs night shifts.</li>
+  <li>Analyze CSAT for different product categories or support teams.</li>
+  <li>Example: High error rate may only occur in one shift—this wouldn’t be seen in combined data.</li>
+</ul>
+<hr>
